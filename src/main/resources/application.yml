@@ -1,6 +1,12 @@
+server:
+  port: 9998
+
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    password: 123456
-    url: jdbc:mysql://localhost:3306/test_swagger?allowMultiQueries=true&connectTimeout=60000
+    password: admin
+    url: jdbc:mysql://82.157.130.123:33306/db_xinli?allowMultiQueries=true&connectTimeout=60000
     username: root
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
