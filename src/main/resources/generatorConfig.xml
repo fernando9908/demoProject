@@ -47,17 +47,15 @@
             <!--是否使用实际列名,默认为false-->
             <!--<property name="useActualColumnNames" value="false" />-->
         </table>
+
         <table schema="" tableName="TB_ADMIN_USER" domainObjectName="AdminUser"
                enableCountByExample="true" enableDeleteByExample="true" enableSelectByExample="true"
                enableUpdateByExample="true" selectByExampleQueryId="false">
-            <!--是否使用实际列名,默认为false-->
-            <!--<property name="useActualColumnNames" value="false" />-->
         </table>
+
         <table schema="" tableName="TB_ORDER" domainObjectName="Order"
                enableCountByExample="true" enableDeleteByExample="true" enableSelectByExample="true"
                enableUpdateByExample="true" selectByExampleQueryId="false">
-            <!--是否使用实际列名,默认为false-->
-            <!--<property name="useActualColumnNames" value="false" />-->
         </table>
 
     </context>

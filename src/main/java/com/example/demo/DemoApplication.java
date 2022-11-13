@@ -6,18 +6,14 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-@EnableWebMvc
+/**
+ * @author YRH
+ */
 @SpringBootApplication
-public class DemoApplication implements WebMvcConfigurer {
+public class DemoApplication {
 
   public static void main(String[] args) {
     SpringApplication.run(DemoApplication.class, args);
-  }
-
-  @Override
-  public void addResourceHandlers(ResourceHandlerRegistry registry) {
-    registry.addResourceHandler("doc.html").addResourceLocations("classpath:/META-INF/resources/");
-    registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
   }
 
 }
